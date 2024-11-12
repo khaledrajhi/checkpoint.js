@@ -1,0 +1,23 @@
+ALGORITHM algorithm_name
+VAR
+   age:INTEGER
+   price:INTEGER
+BEGIN
+REPEAT
+    READ(age)
+IF (age<=12) THEN
+    price:=10
+    write("the price will be "price"$")
+ELSE_IF (13<=age<=17) THEN
+    price:=15
+   write("the price will be " price "$")
+ELSE
+    price:=20
+    write("the price will be " price "$")
+END_IF
+    
+END_IF
+
+UNTIL (1<=age<=1000)
+
+END

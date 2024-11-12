@@ -1,0 +1,16 @@
+ALGORITHM a7wel ta9ss
+
+VAR
+tem:INTEGER
+BEGIN
+    REPEAT
+        READ(tem)
+IF ( -10<=tem<=10) THEN
+    write("ya5i toosken fi Antarctica")
+ELSE_IF (10<=tem<=20) THEN
+    write("berda ilbss blgdee") 
+ELSE
+    write("labess labess")
+END_IF
+    UNTIL (-100<=tem<=100)
+END
